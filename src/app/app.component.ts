@@ -51,7 +51,7 @@ export class AppComponent implements OnInit {
     if (status === 1) {
       return 'Activeeeee';
     } else if (status === 1) {
-      // Dead code: Condition is identical to previous branch
+      // Dead code: Condition is identical to previous branch222
       return 'Pending';
     }
     return 'Unknown';
