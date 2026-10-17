@@ -20,5 +20,6 @@ export class AppComponent {
     console.time('changeColorTheRightWay');
     this.color = 'red';
     console.timeEnd('changeColorTheRightWay');
+    console.log('login ok');
   }
 }
