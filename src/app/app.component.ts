@@ -49,7 +49,7 @@ export class AppComponent implements OnInit {
   // 8. CODE SMELL & BUG: Duplicate conditions / dead code
   checkStatus(status: number): string {
     if (status === 1) {
-      return 'Active';
+      return 'Activeeeee';
     } else if (status === 1) {
       // Dead code: Condition is identical to previous branch
       return 'Pending';
