@@ -34,7 +34,7 @@ export class AppComponent implements OnInit {
     this.processData(null);
   }
 
-  // 6. BUG / CRASH: Potential NullPointerException / Unhandled nulll
+  // 6. BUG / CRASH: Potential NullPointerException / Unhandled nullll
   processData(user: any) {
     // Unsafe access, will throw TypeError at runtime
     const upperName = user.name.toUpperCase();
